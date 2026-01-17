@@ -1,9 +1,9 @@
-function ActivityItem() {
+function ActivityItem({title, description}) {
   return (
     <div className="activity-item-card">
-      <h3 className="activity-title">Activity Title</h3>
+      <h3 className="activity-title">{title} </h3>
       <p className="activity-desc">
-        Activity Description goes here in a clean readable format.
+       {description}
       </p>
     </div>
   );
